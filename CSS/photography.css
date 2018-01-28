@@ -1,0 +1,87 @@
+body {
+  	display: flex;
+
+  	background-color: #000;
+  	padding: 0;
+  	margin: 0;
+  	width: 100%;
+  	height: 100vh;
+}
+
+.images {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-between;
+}
+
+h1 {
+	/*transform: scale(1.5);*/
+	margin: 0;
+	padding: 0;}
+
+.image {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	font-family: 'Arima Madurai', cursive;
+	font-size: 1.5em;
+	justify-content: center;
+
+	text-align: center;
+	color: white;
+
+	transition:
+	font-size 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275),
+		flex 0.5s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+		/*flex 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);*/
+		
+}
+
+.image:hover {
+	flex-grow: 10;
+	font-size: 2.5em;
+}
+
+.image1 {
+	background-image: url("../Images/mt hamilton.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image2 {
+	background-image: url("../Images/Malibu.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image3 {
+	background-image: url("../Images/sequoia.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image4 {
+	background-image: url("../Images/Los Angeles.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image5 {
+	background-image: url("../Images/santa monica.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image6 {
+	background-image: url("../Images/san jose.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }
+
+.image7 {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../Images/tokopah.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+ }

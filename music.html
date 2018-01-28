@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music</title>
+	<link rel="stylesheet" type="text/css" href="CSS/music.css">
+	<link rel="stylesheet" type="text/css" href="CSS/font-awesome.css">
+</head>
+
+
+
+<body>
+	<div id="bg">
+		<div id="blackLayer"></div>
+		<img id="bgimg" src="Images/album-arts/a.jpg">
+	</div>
+
+	<div id="mainPlayer">
+		<div id="image">
+			<img id="albumart" src="Images/album-arts/a.jpg">
+		</div>
+
+		<br>
+
+		<div id="player">
+			<div id="songTitle"></div>
+			<br>
+
+			<div id="buttons">
+				<button id="prev"><i class="fa fa-step-backward" aria-hidden="true"></i></button>
+				<button id="play"><i class="fa fa-play" aria-hidden="true"></i></button>
+				<button id="next"><i class="fa fa-step-forward" aria-hidden="true"></i></button>
+			</div>
+			<br>
+			
+			<div id="volumeCtrl">
+				<i id="volume" class="fa fa-volume-up" aria-hidden="true"></i> 
+				<input type="range" min="0" max="50" value="25" class="slider" id="myRange">
+			</div>
+
+			<br>
+			<br> 
+
+			<div id="seekbar">
+				<div id="fill"></div>
+			</div>
+
+			<div id="currentTimeDisp">00:00 / 00:00</div>
+
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="Javascript/music.js"></script>
+
+</html>
